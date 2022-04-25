@@ -1,0 +1,47 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #82b1a9;
+  color: #412c3c;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+a {
+  color: #943a48;
+  font-weight: 700;
+}
+
+.logo-container {
+  position: relative;
+}
+
+.logo {
+  border: none;
+}
+
+.badge {
+  right: 16px;
+  top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  border: none;
+  color: #ebebeb;
+  background-color: white;
+}
+
+.badge:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+
+img {
+  border: 8px solid white;
+  margin: 8px 0;
+}
