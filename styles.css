@@ -23,10 +23,17 @@ a {
 
 .logo-container {
   position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
 .logo {
   border: none;
+}
+
+.twitter:hover > svg {
+  fill: white;
 }
 
 .badge {
